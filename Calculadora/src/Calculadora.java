@@ -24,7 +24,7 @@ public class Calculadora {
 		int result = num1 / num2;
 		return result;
 	}
-	
+	//Esta es una calculadora
 	
 
 }

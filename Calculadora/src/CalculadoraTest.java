@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class CalculadoraTest {
 
 	@Test
-	void testSuma() {
+	void testearSuma() {
 		Calculadora calcular = new Calculadora(4,2);
 		double resul=calcular.suma();
 		assertEquals(6,resul);
@@ -13,7 +13,7 @@ class CalculadoraTest {
 	}
 
 	@Test
-	void testResta() {
+	void testeoResta() {
 		Calculadora calcular = new Calculadora(4,2);
 		double resul=calcular.resta();
 		assertEquals(2,resul);
